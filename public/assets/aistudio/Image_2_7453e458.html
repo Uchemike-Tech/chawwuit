@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-tertiary-container": "#f7fff2", "on-background": "#201a17", "surface-dim": "#e4d7d2", "secondary-fixed": "#ffddb8", "tertiary-fixed": "#7ffc97", "surface-bright": "#fff8f6", "secondary": "#855300", "secondary-container": "#fea619", "surface-tint": "#b12d03", "surface-container-high": "#f2e6e0", "outline-variant": "#e2bfb6", "on-error": "#ffffff", "error": "#ba1a1a", "inverse-on-surface": "#fbeee9", "on-tertiary": "#ffffff", "background": "#fff8f6", "on-secondary-fixed": "#2a1700", "on-tertiary-fixed-variant": "#005320", "inverse-primary": "#ffb4a1", "on-primary-container": "#fffbff", "surface-container-lowest": "#ffffff", "secondary-fixed-dim": "#ffb95f", "on-secondary-container": "#684000", "on-error-container": "#93000a", "primary-fixed-dim": "#ffb4a1", "surface-container-low": "#fef1eb", "primary-container": "#d0431c", "primary-fixed": "#ffdbd1", "on-primary": "#ffffff", "on-secondary-fixed-variant": "#653e00", "surface-container": "#f8ebe6", "inverse-surface": "#362f2c", "on-primary-fixed": "#3c0800", "on-primary-fixed-variant": "#881f00", "tertiary-container": "#00873a", "primary": "#ae2b01", "on-secondary": "#ffffff", "tertiary-fixed-dim": "#62df7d", "surface-variant": "#ede0db", "surface-container-highest": "#ede0db", "on-surface": "#201a17", "error-container": "#ffdad6", "on-surface-variant": "#5a413a", "tertiary": "#006b2c", "outline": "#8e7069", "on-tertiary-fixed": "#002109", "surface": "#fff8f6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "margin": "2rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "margin-mobile": "1rem", "space-lg": "1.5rem", "gutter-mobile": "0.75rem", "gutter": "1.25rem", "space-md": "1rem" }, "fontFamily": { "headline-md": ["Plus Jakarta Sans"], "price-lg": ["Plus Jakarta Sans"], "display-lg": ["Plus Jakarta Sans"], "headline-xl": ["Plus Jakarta Sans"], "display-lg-mobile": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "price-md": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-sm": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"] }, "fontSize": { "headline-md": ["22px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "price-lg": ["20px", { "lineHeight": "24px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "display-lg": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.03em", "fontWeight": "800" }], "headline-xl": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "headline-lg": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "price-md": ["16px", { "lineHeight": "20px", "fontWeight": "700" }], "headline-xl-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-sm": ["18px", { "lineHeight": "24px", "letterSpacing": "-0.005em", "fontWeight": "600" }], "label-md": ["13px", { "lineHeight": "18px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-lg": ["15px", { "lineHeight": "20px", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-lg"><a class="flex items-center gap-space-sm" data-path="home" href="#"><img alt="Chawwit official brand logo: modern culinary emblem featuring a stylish smiling flame and steam bite motif with bold friendly lettering 'chawwit' in vibrant terracotta orange and golden amber.. Brand logo. - Primary color: #e04e26
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VU4QhZEf4uOUW0Im545D4HF7EATZfptIyne6adszJJeBzpNxwvQYTUO27YhXZ91y_NlD2OmmEF3SAdVmw_jl0AowPmSafC7KiS1jRf4-ZyhVHm2K9eA4o_gt5w-4kx-FSFihljlPya4JSJIQqJwAK5DEBKVgaNemIve3eVLo6dYEkEoq6INKKOgJRlHbTsclHzuGCS1lC2PqCM8tc2cL7eNmisYCldfukZvaDircyXZvSoeVwJBQcKjoI"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Chawwit</span></a><div class="hidden xl:flex items-center gap-space-xs bg-surface-container-high px-space-md py-space-xs rounded-full text-on-surface-variant"><span class="material-symbols-outlined text-primary text-[18px]">location_on</span><div class="flex flex-col"><span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Delivering to</span><span class="font-label-md text-label-md text-on-surface">Victoria Island, Lagos</span></div><span class="material-symbols-outlined text-[16px] text-on-surface-variant ml-space-xs">expand_more</span></div></div><nav class="hidden lg:flex items-center gap-space-md" data-active-classes="bg-primary-container text-on-primary-container font-headline-sm rounded-lg px-space-md py-space-xs"><a aria-current="page" class="transition-colors bg-primary-container text-on-primary-container font-headline-sm rounded-lg px-space-md py-space-xs" data-path="home" href="#">Home</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-space-sm py-space-xs rounded-lg transition-colors" data-path="shop-catalogue" href="#">Shop / Catalogue</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-space-sm py-space-xs rounded-lg transition-colors" data-path="deals" href="#">Deals</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-space-sm py-space-xs rounded-lg transition-colors" data-path="about" href="#">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-space-sm py-space-xs rounded-lg transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-space-md"><div class="relative hidden md:flex items-center"><span class="material-symbols-outlined absolute left-space-md text-on-surface-variant pointer-events-none text-[20px]">restaurant_menu</span><input class="bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant pl-10 pr-space-md py-2.5 rounded-lg w-56 xl:w-72 font-body-sm text-body-sm shadow-[0_1px_4px_rgba(0,0,0,0.03)] focus:outline-none focus:bg-surface-container-low transition-all" placeholder="Search meals, cravings..." type="text"/></div><button class="flex items-center gap-space-sm bg-primary text-on-primary px-space-md py-2.5 rounded-xl shadow-[0_4px_16px_-2px_rgba(31,25,22,0.08)] hover:bg-primary-container hover:text-on-primary-container transition-all" type="button"><span class="material-symbols-outlined text-[20px]">shopping_bag</span><span class="font-label-md text-label-md">3 items • $42.50</span></button><a class="flex items-center gap-space-xs" data-path="user-profile" href="#"><img alt="Profile" class="w-8 h-8 rounded-full object-cover shadow-[0_1px_4px_rgba(0,0,0,0.05)]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgd8ySP9uy22a8afvM3iR-gIfh9_UKw_v54VPYDaMpz96bdG3Z-IPih5SGj1sAgSYgUAwssre2FjQrwautnzAyWh9FLgSLYI9W_0yE0Bb79cGIqk7mOaZ2fr9ICS5wO18wRo4OUfdb6pisEwukoCnsEC7k59X0U1N8H7gSOCFrzxJm3c8By43G5iCNpLY6IBwMgnZ2cJwD1nm_G0EjkvPDIY2vOlZ95z2t-5JCL7snlUj66rjHU1Gh"/></a></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Top Announce / Micro Tracker Strip -->
+<section class="w-full bg-secondary text-on-secondary px-margin py-space-xs flex items-center justify-between text-body-sm font-body-sm">
+<div class="flex items-center gap-space-sm mx-auto md:mx-0">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed">bolt</span>
+<span>Live Kitchen Status: <strong>Open &amp; Sizzling</strong> in Victoria Island &amp; Ikeja</span>
+<span class="hidden md:inline text-secondary-fixed">•</span>
+<span class="hidden md:inline text-secondary-fixed">Average delivery time right now: <strong>24 mins</strong></span>
+</div>
+<div class="hidden md:flex items-center gap-space-md text-label-sm font-label-sm uppercase tracking-wider text-secondary-fixed">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">local_fire_department</span> 1,248 Orders Delivered Today</span>
+</div>
+</section>
+<!-- Hero Section -->
+<section class="relative w-full px-margin pt-space-xl pb-space-xl overflow-hidden bg-gradient-to-b from-surface-container-low via-surface to-surface">
+<!-- Subtle warm glow circles -->
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-primary/10 blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 right-0 w-[500px] h-[500px] rounded-full bg-secondary-container/15 blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Hero Content Left -->
+<div class="lg:col-span-7 flex flex-col gap-space-lg z-10">
+<!-- Delivery Guarantee Pill -->
+<div class="inline-flex items-center gap-space-xs bg-surface-container-highest px-space-md py-1.5 rounded-full w-fit shadow-sm">
+<span class="flex h-2.5 w-2.5 rounded-full bg-tertiary animate-pulse"></span>
+<span class="material-symbols-outlined text-primary text-[18px]">timer</span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">30 Mins or It's Free</span>
+<span class="text-on-surface-variant">•</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">Contactless Hot Delivery</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight leading-tight">
+            Craving Fresh, <span class="text-primary italic">Fire-Crafted</span> Flavor Delivered Fast
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl">
+            Sizzling flame-licked suya, fragrant firewood jollof, and succulent artisan street platters prepared fresh by master grillers and delivered straight to your door steaming hot.
+          </p>
+</div>
+<!-- Action CTAs -->
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="flex items-center justify-center gap-space-sm bg-primary text-on-primary px-space-xl py-3.5 rounded-xl font-label-lg text-label-lg shadow-lg shadow-primary/20 hover:bg-primary-container transition-all hover:scale-[1.02] active:scale-[0.98]" href="#featured-menu">
+<span>Explore Menu / Order Now</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="flex items-center justify-center gap-space-sm bg-surface-container-lowest text-on-surface px-space-lg py-3.5 rounded-xl font-label-lg text-label-lg shadow-sm hover:bg-surface-container-high transition-all" href="#promos">
+<span class="material-symbols-outlined text-secondary text-[20px]" style="font-variation-settings: 'FILL' 1;">local_offer</span>
+<span>Today's Hot Deals (Save 20%)</span>
+</a>
+</div>
+<!-- Trust Metrics Bento Strip -->
+<div class="grid grid-cols-3 gap-space-md pt-space-md">
+<div class="flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<span class="font-price-lg text-price-lg text-primary">4.9 / 5</span>
+<div class="flex items-center text-secondary-container">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">18,500+ foodies</span>
+</div>
+<div class="flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<span class="font-price-lg text-price-lg text-secondary">25 Mins</span>
+<span class="font-label-md text-label-md text-on-surface mt-0.5">Average Transit</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Thermal bag packed</span>
+</div>
+<div class="flex flex-col bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+<span class="font-price-lg text-price-lg text-tertiary">100% Halal</span>
+<span class="font-label-md text-label-md text-on-surface mt-0.5">Farm Sourced</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1">Daily fresh marinades</span>
+</div>
+</div>
+</div>
+<!-- Hero Visual Right (Editorial Collage with Overlaps) -->
+<div class="lg:col-span-5 relative flex flex-col items-center">
+<div class="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl">
+<img class="w-full h-full object-cover" data-alt="Close up gourmet aerial view of Nigerian smoky jollof rice feast served with charred flame-grilled suya skewers, golden fried sweet plantains, roasted chili peppers, and fresh scallions on a dark rustic textured slate platter in warm directional restaurant lighting with rich terracotta and amber tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAgpQdNfNFWpar4EHgkXXp2LbQXq_fvPHhug1QdxZuVSTz0Jei0jeJCnzrUQVy9r7-tlo6KNwi2STxf7u10uvSlD0fIdrVza1MCYiYlKsh7UBq7SoAXo_Yp_wMKcIr6Ww8Ni5CgfkEpODoOM3kLZmePuYOOFsyq7N-Vp5E7GAbW9Mm3Y5uMM6uQ1wFDfl3mxrmLMVPGXmLe8KUSPFL5IKQ0i1pneeQbXZVsGNnljec7fmq-5av-tga7"/>
+<!-- Gradient Scrim for readable badges -->
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div>
+<div class="absolute bottom-space-lg left-space-lg right-space-lg text-on-primary">
+<div class="inline-flex items-center gap-1.5 bg-primary/90 backdrop-blur-md px-3 py-1 rounded-full text-label-sm font-label-sm uppercase tracking-wider mb-2">
+<span class="material-symbols-outlined text-[14px]">whatshot</span> Kitchen Signature
+            </div>
+<p class="font-headline-md text-headline-md text-on-primary font-bold">Smokey Firewood Jollof &amp; Suya Platter</p>
+<p class="font-body-sm text-body-sm text-on-primary/80">Fresh off the charcoal hearth grill with spicy yaji pepper sauce.</p>
+</div>
+</div>
+<!-- Floating Appetizer Pill Overlap Card -->
+<div class="absolute -bottom-6 -left-6 bg-surface-container-lowest p-space-md rounded-2xl shadow-xl flex items-center gap-space-md z-20 max-w-xs animate-bounce-slow">
+<div class="w-14 h-14 rounded-xl overflow-hidden flex-shrink-0">
+<img class="w-full h-full object-cover" data-alt="Crispy sizzling golden chicken wings drizzled with glossy spicy honey glaze and toasted sesame seeds in a warm vibrant food photography style with warm orange lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAph8RjtfGTaE2zk6RTOrYr7CZi7kRQ5k3lbtAGOOFJOT7EoiDPyyU73FK-FKUNmg9sRG8QK25RmY0JbKVMasbnViFj4JBbOWneUeHqRT8i9_rqKH_aShmSIykZOvh-rcc0BoecX1KwmRzw1eOUbrbPABth3oxqyGiJNke5k5nCxaLmGRvS8qCmUCSjuXtbd7p75JfY7fAScRsb3g0RLTjWmQYkuZ_evbe4-oX8wnQCK9Zfl8tQvrWT"/>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-secondary-container text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">Trending Now</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold text-sm">Crispy Hot Wings</span>
+<span class="font-price-md text-price-md text-primary">$8.50 <span class="text-body-sm font-body-sm text-on-surface-variant font-normal">/ ₦4,200</span></span>
+</div>
+</div>
+<!-- Overlapping Quick Time Counter Top Right -->
+<div class="absolute -top-4 -right-4 bg-surface-container-lowest px-4 py-3 rounded-2xl shadow-lg flex items-center gap-3 z-20">
+<div class="w-10 h-10 rounded-full bg-tertiary/10 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[22px]">moped</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Live Cook Time</span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface">18 - 22 mins</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Category Quick-Chips Navigator -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-bold">Fast Category Search</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface mt-1">What are you feasting on today?</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant">Click to browse curated chef selections made right to order.</p>
+</div>
+<!-- Horizontal Pills Scrollable Container -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-space-md">
+<!-- Chip 1: Flame Grills (Active) -->
+<a class="group flex flex-col items-center p-space-md bg-primary text-on-primary rounded-2xl shadow-md transition-all hover:scale-105 cursor-pointer" href="#featured-menu">
+<div class="w-16 h-16 rounded-full overflow-hidden mb-space-sm bg-primary-container p-0.5">
+<img class="w-full h-full object-cover rounded-full" data-alt="Charred flame grilled beef suya skewers sprinkled with roasted peanut spice on a dark background warm fiery colors." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5eZ-0ziZZmbgRxSZiedv2kIsGO4K0I9zMgNJ86d8WUM5eZkGH8rbuwba00ZiTfeeK0RbBJJvg9SdchtAw2GHUJj7kEFLNWA9McUWhL3tbqv5BHtKPKq0AorhxvDTyM9vaXKq8vtbB43yqx9VnsjPwTNnp0cAoRUQ2mAYUjyOWCa4h9B01xzpAp8IYiUEaV6FmTJ85dsbIC_peOVO0eIGIcl5TL9W4ZSJc8Ngad1cqt_Tzn-6gAnAW"/>
+</div>
+<span class="font-label-lg text-label-lg text-center font-bold">Flame Grills</span>
+<span class="font-label-sm text-label-sm opacity-90 mt-1">14 Dishes</span>
+</a>
+<!-- Chip 2: Signature Bowls -->
+<a class="group flex flex-col items-center p-space-md bg-surface-container-lowest text-on-surface rounded-2xl shadow-sm hover:shadow-md transition-all hover:scale-105 cursor-pointer" href="#featured-menu">
+<div class="w-16 h-16 rounded-full overflow-hidden mb-space-sm bg-surface-container p-0.5">
+<img class="w-full h-full object-cover rounded-full" data-alt="Rich savory jollof rice bowl topped with grilled pulled beef, dodo fried plantains, and pickled red onions." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDnffcqZg20uyjfQrD9OIqKjF_AAN_h-46nxCPKunKTGRI63-FThT-OQ1BFiw9BdRyXAYKaEaISUDYYYyl8do-VRJIVjR_QaMU4Eqytjm6Y_3PDK44hGeHj6NeLSiVTvyfo4HN_RL62p-pEf_MIs4PF3Mx6Bn3refZQ-cEzFbdwEQV4IAw3NYnvOIrnYvMLIxJiin7LykW2xvl7zEWq6ORjRQN9m64lYmsiEUE_uMjwofRRd4gfLEtU"/>
+</div>
+<span class="font-label-lg text-label-lg text-center font-bold">Signature Bowls</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">9 Dishes</span>
+</a>
+<!-- Chip 3: Street Bites -->
+<a class="group flex flex-col items-center p-space-md bg-surface-container-lowest text-on-surface rounded-2xl shadow-sm hover:shadow-md transition-all hover:scale-105 cursor-pointer" href="#featured-menu">
+<div class="w-16 h-16 rounded-full overflow-hidden mb-space-sm bg-surface-container p-0.5">
+<img class="w-full h-full object-cover rounded-full" data-alt="Crispy golden meat pies, puff puff pastries, and spicy peppered gizzard appetizers on parchment paper." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDp-ZwI1TuH10fHTSxC3ntGzYIKf-Fo-6QJXSJT9r5PKCNtk4Vgf48-TiCNdSmMvF3Pw2wn9x_UiYV7hdP8igJNQxYGD7F2_NqVxAO8-iSelzgI4dL0bNrWfmjYKUYYyQ6KAPRQxJPNkA1fLR69bAJ-r7upBCRGbztyEhgMvjGvi2VL-Dtp6e5u6MRuR7nQnRRcpmmezoYRADx_kyZjiiFvF9e8PPhW2NKd42cqp98h68IgehvE0JgF"/>
+</div>
+<span class="font-label-lg text-label-lg text-center font-bold">Street Bites</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">12 Dishes</span>
+</a>
+<!-- Chip 4: Meal Combos -->
+<a class="group flex flex-col items-center p-space-md bg-surface-container-lowest text-on-surface rounded-2xl shadow-sm hover:shadow-md transition-all hover:scale-105 cursor-pointer" href="#featured-menu">
+<div class="w-16 h-16 rounded-full overflow-hidden mb-space-sm bg-surface-container p-0.5">
+<img class="w-full h-full object-cover rounded-full" data-alt="Extravagant family combo feast box featuring mixed BBQ ribs, spiced rice, crispy fries, drinks, and assorted dipping sauces." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCymBFm-vfVzbevXqbKLmJGtQQV54C7Os4MwjxETVg0gmFPlQH1kt3cTyRGER5PCwi_exh1hlCEe1SC0w811ca6rb0owsDLDr81mXYZWh3NisguVyWry5djcL7exYg_EXVK_u0qHwc-M1mk7HsGuMtUdcNSjNcvVNFcQkX0zjtAubMem0mz8uAC1s6opccGs9gy_EfFzOR_ziRXVz987cEU-FASmxLtjZ_JeBuSWMzj_MLuO6W5Y5o5"/>
+</div>
+<span class="font-label-lg text-label-lg text-center font-bold">Meal Combos</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">8 Bundles</span>
+</a>
+<!-- Chip 5: Sides & Drinks -->
+<a class="group flex flex-col items-center p-space-md bg-surface-container-lowest text-on-surface rounded-2xl shadow-sm hover:shadow-md transition-all hover:scale-105 cursor-pointer" href="#featured-menu">
+<div class="w-16 h-16 rounded-full overflow-hidden mb-space-sm bg-surface-container p-0.5">
+<img class="w-full h-full object-cover rounded-full" data-alt="Chilled hibiscus zobo iced drink with fresh mint and citrus alongside seasoned hand cut plantain chips." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB__jsDJtUE-iKA0Uuri3cf9tVcHnP1G8UWshNmq2e-j6xfo9qKiNNgS3rV-pGy9HvzE8MnuNJBEWFau1hOYYzCFgeSCt0EOiAmmgbEHul6iTrYICaLNGsBMe666oejSDOmt3UB2vc6P76G8L3k3DCfCio28GA0jQdKA-UOB4E75JI717LaF8cN2WUDDVMc0Mp_DpgmWtz96ENSACof53TshEuedoLd42C8yBmWSXvhpjgYHJGollyo"/>
+</div>
+<span class="font-label-lg text-label-lg text-center font-bold">Sides &amp; Drinks</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">16 Items</span>
+</a>
+<!-- Chip 6: Sweet Treats -->
+<a class="group flex flex-col items-center p-space-md bg-surface-container-lowest text-on-surface rounded-2xl shadow-sm hover:shadow-md transition-all hover:scale-105 cursor-pointer" href="#featured-menu">
+<div class="w-16 h-16 rounded-full overflow-hidden mb-space-sm bg-surface-container p-0.5">
+<img class="w-full h-full object-cover rounded-full" data-alt="Warm cinnamon sugar puff puff dusted with powdered sugar and caramel glaze dip in artisanal presentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCazdh7UQnbeSTtpKmfb06f5KvXp34Rta9dvWNqIxvExQFHjgb4vDQ1SCNKpok15AbzFTAbTQInLYe8FRpIpqcfm5WL2EfFBqQ-LZQzxa9ZXMHwzgQ0MAgR-688OZ0KSAj1BHUcYxmo5xp8otG1uF-es8c94dt2njGWQhXziAETFStAD5DvydQT2YpEawYCJ6vUBV5SvlfehpRYKseW-3puR51umfbtW8WdnoyVRApQam_lEff-4W9b"/>
+</div>
+<span class="font-label-lg text-label-lg text-center font-bold">Sweet Treats</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">6 Desserts</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Featured Dishes / Today's Specials Grid -->
+<section class="w-full px-margin py-space-xl" id="featured-menu">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-lg">
+<!-- Section Header with Filters -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]" style="font-variation-settings: 'FILL' 1;">restaurant_menu</span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-bold">Kitchen Favorites</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface mt-1">Today's Hot Specials</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Crafted directly on flame grills, sealed fresh, and dispatched instantly.</p>
+</div>
+<!-- Filter Pills Bar -->
+<div class="flex items-center gap-2 overflow-x-auto pb-1">
+<button class="px-space-md py-1.5 rounded-full bg-on-surface text-on-primary font-label-md text-label-md whitespace-nowrap" type="button">All Specials</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-all whitespace-nowrap" type="button">🔥 Extra Spicy</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-all whitespace-nowrap" type="button">🌱 Vegan / Halal</button>
+<button class="px-space-md py-1.5 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-container-highest transition-all whitespace-nowrap" type="button">⭐ Chef's Pick</button>
+</div>
+</div>
+<!-- Food Product Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Dish Card 1: Smoky Jollof Fiesta Box -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Nigerian firewood smokey party jollof rice served with grilled chicken, sweet golden plantains, and tossed market salad in a warm modern artisanal bowl." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDa1AIL97DUHfd4_mw2vcRMaKL5Oh0zGX0Bhl3xGmhbmPwuFhE-F4f8R_KH72HbmtEo8lDCGwg5t1KYYdAGbLN9Dvpf0KoYHCe5-WsFObSw9yLpsi1qFRAbSs0PKlogjFMT-5gq-hkzyCGAzaK03nSmj0PNopx2YycHWPFuoVBbYsgTJ5vtN_VKFjwGXmUefelVA2YClErPPW7RMzdrKBBDa9hJCn9YspzNCtwabPLrrbfDtLHh3hmk"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase tracking-wider font-bold">Chef's Choice</span>
+<span class="bg-surface/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm px-2 py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[13px]">eco</span> Halal
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/95 backdrop-blur-md px-2.5 py-1 rounded-lg text-label-sm font-label-sm text-on-surface flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-secondary-container text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.9</span> (420+)
+            </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 15-20 min</span>
+<span class="text-error font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">local_fire_department</span> Med Heat</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors font-bold">Smoky Jollof Fiesta Box</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Firewood basmati rice, tender grilled pepper chicken, sweet fried dodo, and Chawwit house slaw.</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex flex-col">
+<span class="font-price-lg text-price-lg text-on-surface">$12.99</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">₦6,500</span>
+</div>
+<button class="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center shadow-md shadow-primary/20 hover:bg-primary-container hover:scale-105 active:scale-95 transition-all" title="Add to bag" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Dish Card 2: Suya Glazed Flame Ribs -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Succulent sticky flame-seared beef ribs coated with peanut suya dry rub and chili glaze, served with red onion rings and lime wedges on dark slate." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6dlkxZS1_uGcDQBUZ5gL8Voc2xDIAlZz-Uh9gN3YwHIcvKvf3S7lQMnpWzt-v-fqMKXwxNO0jeQP1dL5PU-INpCsYPeIwtgcOZchC8zepMPMN8PT2ZM-Yz1jxAULHt335oovTITuLoRWggkQ24R7DXLNzbzsSfQTscWBi8MKSrLolDnoIknGhNtBv6JXQ_XUcZ0i6yDDQOJJt2Ju2iBYWLXO3eGNt8B1zHxb_BhvZrj62WjGqYsAM"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="bg-error text-on-error font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase tracking-wider font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[13px]">whatshot</span> Spicy
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/95 backdrop-blur-md px-2.5 py-1 rounded-lg text-label-sm font-label-sm text-on-surface flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-secondary-container text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">5.0</span> (310+)
+            </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 20-25 min</span>
+<span class="text-error font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">local_fire_department</span> Hot</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors font-bold">Suya Glazed Flame Ribs</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Slow-cooked prime short ribs rubbed in northern yaji spice and finished over roaring open flame embers.</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex flex-col">
+<span class="font-price-lg text-price-lg text-on-surface">$16.50</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">₦8,200</span>
+</div>
+<button class="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center shadow-md shadow-primary/20 hover:bg-primary-container hover:scale-105 active:scale-95 transition-all" title="Add to bag" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Dish Card 3: Crispy Golden Wings Platter -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Platter of golden crisp double fried chicken wings tossed in fiery sweet mango scotch bonnet glaze, with seasoned potato wedges and garlic dip." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOa4Yp1rJ1KKWREIewZdYO0nvu9IUoH-6Aw44uJsLMF2-tTxOGZZtJ6FoMtuayvWTZiGthJJg8hU0UZto1aZphQ7TUCi-erQ29GdDSuMKL7RgQ6ccHDAmDKziME9uY66yiY47UK8odYwqSiYHuOC1_7-jmkHtosXOPxWCYh4fSCB8Chb2q8engwbD410p4Ou24Tkuew5fXHss7XA-cCFkJcaxFuOmM4GvsvqJsGyubnv7fpYBEHFtN"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="bg-secondary-container text-on-secondary-container font-label-sm text-label-sm px-2.5 py-0.5 rounded-full uppercase tracking-wider font-bold">Best Seller</span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/95 backdrop-blur-md px-2.5 py-1 rounded-lg text-label-sm font-label-sm text-on-surface flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-secondary-container text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.8</span> (580+)
+            </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 15-18 min</span>
+<span class="text-secondary font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">local_fire_department</span> Mild / Sweet</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors font-bold">Crispy Golden Wings Platter</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">8-piece jumbo wings tossed in your choice of Sweet Mango Habanero or Smoky Herb Garlic Butter.</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex flex-col">
+<span class="font-price-lg text-price-lg text-on-surface">$10.99</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">₦5,400</span>
+</div>
+<button class="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center shadow-md shadow-primary/20 hover:bg-primary-container hover:scale-105 active:scale-95 transition-all" title="Add to bag" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Dish Card 4: Loaded Plantain & Beef Poutine -->
+<div class="group bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+<div class="relative w-full aspect-[4/3] overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Gourmet loaded dish with sweet fried ripe plantain cubes, shredded spiced pulled beef brisket, melted artisanal cheese curds, and rich pepper gravy." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwlFDyM_icLoGe6jFu9YbSsksZ-WO-Tt7HAMKZBs6oihxqtfi9dsW288jZe5r0rVCLAWu6z9ZErHEbF6GY4EPUcpJdhgmVtY4WWgCev6HrF_xPjE3y4eHyzGOEOCSQuwY18hFQs9vRrh4R3qRPTJW_hXc3uipf6HW6ix8hv__U-7o_gvVaMrICZQQfSgAcWPdcvAfrjsVV2MdowPhMrJfyQ8WEkCxUR5hgqD88zcrnNzwpTuLxL_4L"/>
+<div class="absolute top-3 left-3 flex flex-wrap gap-1.5">
+<span class="bg-surface/90 backdrop-blur-md text-tertiary font-label-sm text-label-sm px-2.5 py-0.5 rounded-full flex items-center gap-1 font-bold">
+<span class="material-symbols-outlined text-[13px]">favorite</span> Diner Fav
+              </span>
+</div>
+<div class="absolute bottom-3 right-3 bg-surface/95 backdrop-blur-md px-2.5 py-1 rounded-lg text-label-sm font-label-sm text-on-surface flex items-center gap-1 shadow-sm">
+<span class="material-symbols-outlined text-secondary-container text-[15px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-bold">4.9</span> (295+)
+            </div>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">schedule</span> 15-20 min</span>
+<span class="text-on-surface-variant font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">local_fire_department</span> Savory Warm</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors font-bold">Loaded Plantain &amp; Beef Poutine</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">Caramelized dodo cubes topped with braised pulled brisket, molten cheese curd sauce, and fresh herbs.</p>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex flex-col">
+<span class="font-price-lg text-price-lg text-on-surface">$11.50</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-medium">₦5,800</span>
+</div>
+<button class="w-10 h-10 rounded-xl bg-primary text-on-primary flex items-center justify-center shadow-md shadow-primary/20 hover:bg-primary-container hover:scale-105 active:scale-95 transition-all" title="Add to bag" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick View Bottom Banner -->
+<div class="flex items-center justify-center pt-space-sm">
+<a class="inline-flex items-center gap-2 text-primary font-label-lg text-label-lg hover:underline group" href="#">
+<span>View entire 48+ item artisan catalogue</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">trending_flat</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Midweek Munchies Promo Banner -->
+<section class="w-full px-margin py-space-lg" id="promos">
+<div class="max-w-7xl mx-auto rounded-3xl overflow-hidden relative shadow-xl bg-gradient-to-r from-secondary to-primary text-on-primary">
+<div class="absolute right-0 top-0 bottom-0 w-1/2 opacity-20 pointer-events-none overflow-hidden">
+<div class="w-full h-full bg-cover bg-center" data-alt="Festive backdrop of freshly made golden fried plantains tossed with spicy scotch bonnet pepper sauce and sea salt flakes." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuABEmMmrAN0-v300bFXfeNLEV2Cr_kmEDNo22nOFZ-HkVQ4dU0hN6YJQ6SQucQR1ewgfk5_Yux_im1tI1sq2lLEwkYc25xi3ICJmnHGZeyNsEu7VP_j-rmkbV0PHR9ZxncfssUe3ULfoNRf_Oeb0aYStX6qtKqGnv-myOapF67LO4ewxvY2cD67OuIl5GIZ9zIzN_25WYojVOY0da5Xzx97qpPCtz9P2lFmrSELk6DNLoVNnoMkMlQ_')"></div>
+</div>
+<div class="relative z-10 p-space-lg md:p-space-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg">
+<div class="flex flex-col gap-space-xs max-w-xl">
+<div class="inline-flex items-center gap-1.5 bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full text-label-sm font-label-sm font-bold uppercase tracking-wider w-fit">
+<span class="material-symbols-outlined text-[15px]">campaign</span> Limited Promo
+          </div>
+<h3 class="font-headline-xl text-headline-xl font-bold tracking-tight">Midweek Munchies Special</h3>
+<p class="font-body-lg text-body-lg text-on-primary/90">
+            Get a complimentary portion of artisan caramelized plantain bites with every food order over $35. Fresh, hot, and seasoned to perfection.
+          </p>
+</div>
+<div class="flex flex-col sm:flex-row items-center gap-space-sm bg-surface-container-lowest/15 backdrop-blur-md p-space-sm rounded-2xl">
+<div class="flex flex-col px-space-md py-1 text-center sm:text-left">
+<span class="text-label-sm font-label-sm text-on-primary/75 uppercase tracking-wider">Coupon Code</span>
+<span class="font-headline-md text-headline-md font-extrabold tracking-widest text-secondary-fixed">CHAWWIT35</span>
+</div>
+<button class="bg-surface-container-lowest text-primary px-space-lg py-3 rounded-xl font-label-md text-label-md hover:bg-surface-container-high transition-all shadow-md active:scale-95 whitespace-nowrap flex items-center gap-1.5" onclick="navigator.clipboard.writeText('CHAWWIT35'); alert('Code CHAWWIT35 copied to clipboard!');" type="button">
+<span class="material-symbols-outlined text-[18px]">content_copy</span>
+<span>Copy &amp; Apply</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- How Chawwit Works: 3-Step Visual Experience -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<div class="text-center max-w-2xl mx-auto flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-bold">Fast &amp; Frictionless</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">How Your Feast Arrives</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">From live hearth-grill sizzle to your doorstep in three seamless steps.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter relative">
+<!-- Step 1 Card -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-md relative hover:shadow-md transition-all">
+<div class="w-14 h-14 rounded-2xl bg-primary/10 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[30px]">touch_app</span>
+</div>
+<div class="absolute top-6 right-6 font-price-lg text-price-lg text-surface-container-high">01</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Pick Your Craving</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Explore mouthwatering firewood jollof, succulent suya, crispy wraps, and artisan treats. Customize your heat levels with one tap.
+            </p>
+</div>
+<div class="mt-auto pt-space-xs flex items-center gap-2 text-primary font-label-md text-label-md">
+<span>Instant checkout</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</div>
+</div>
+<!-- Step 2 Card -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-md relative hover:shadow-md transition-all">
+<div class="w-14 h-14 rounded-2xl bg-secondary-container/20 text-secondary flex items-center justify-center">
+<span class="material-symbols-outlined text-[30px]">outdoor_grill</span>
+</div>
+<div class="absolute top-6 right-6 font-price-lg text-price-lg text-surface-container-high">02</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">We Craft It Fresh &amp; Hot</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              No pre-made heat-lamp trays. Our grill masters sear your protein and assemble your bowls live the minute your order triggers our kitchen bell.
+            </p>
+</div>
+<div class="mt-auto pt-space-xs flex items-center gap-2 text-secondary font-label-md text-label-md">
+<span>Sealed in thermal eco-boxes</span>
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+</div>
+</div>
+<!-- Step 3 Card -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-md relative hover:shadow-md transition-all">
+<div class="w-14 h-14 rounded-2xl bg-tertiary/10 text-tertiary flex items-center justify-center">
+<span class="material-symbols-outlined text-[30px]">local_shipping</span>
+</div>
+<div class="absolute top-6 right-6 font-price-lg text-price-lg text-surface-container-high">03</div>
+<div class="flex flex-col gap-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Fast Contactless Delivery</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Dispatched with GPS route optimization. Your food arrives piping hot within 30 minutes, or you receive an instant refund voucher.
+            </p>
+</div>
+<div class="mt-auto pt-space-xs flex items-center gap-2 text-tertiary font-label-md text-label-md">
+<span>Guaranteed 30-min window</span>
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Dietary & Kitchen Highlights -->
+<section class="w-full px-margin py-space-xl">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Visual Split Left -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<div class="relative w-full aspect-video rounded-3xl overflow-hidden shadow-lg">
+<img class="w-full h-full object-cover" data-alt="Chawwit professional chef basting seasoned chicken wings on an open flaming culinary grill inside a spotless modern restaurant kitchen in warm amber lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIqr3aDfN9iBhK8O0Wd8hf0BdTGkaGcc8nt-6wo765hi0Fwskdhp2u8Q4PBrup8Mjs9iInHUsbR50wrrim5DCwwKJvd6vSUZfcpamIIDq3O46SmdCV-H1lPUY9vY2pAd-RR3gy-WB2HeFvIJBYn7lmRMtX-T3Edp5EEYp3tCsbK1QJmh86g_wFtTw5uMmLKuFj7lgbvOQtMuHCQj7ueY5w_XhA-GIh-cMObJXZd7pJEY10o_LOMtjW"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/70 via-transparent to-transparent"></div>
+<div class="absolute bottom-space-md left-space-md text-on-primary">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed">Master Chefs At Work</span>
+<p class="font-headline-sm text-headline-sm font-bold">Open Hearth Cooking Standard</p>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-space-md">
+<div class="p-space-md bg-surface-container-low rounded-2xl flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-tertiary text-[28px]">verified_user</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">100% Halal Certified</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Audited supplier network</span>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-2xl flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[28px]">recycling</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">Eco-Insulated Packs</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Holds warmth 45+ mins</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Content Right -->
+<div class="lg:col-span-6 flex flex-col gap-space-md">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-bold">The Chawwit Promise</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Artisanal Street Taste Meets Ultra-Modern Precision</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          We refused to accept lukewarm soggy takeout. Every batch of our smoked meats, aromatic sauces, and hand-cut plantains follows strict kitchen temperature gates before being handed off to our insulated delivery couriers.
+        </p>
+<!-- Feature List -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center mt-0.5">
+<span class="material-symbols-outlined text-[16px]">done</span>
+</div>
+<div>
+<strong class="font-label-md text-label-md text-on-surface">Real Woodsmoke &amp; Charcoal Flavors:</strong>
+<span class="font-body-sm text-body-sm text-on-surface-variant"> No artificial smoke flavorings. We cook over seasoned Nigerian hardwood coals for genuine street-cart soul.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center mt-0.5">
+<span class="material-symbols-outlined text-[16px]">done</span>
+</div>
+<div>
+<strong class="font-label-md text-label-md text-on-surface">Zero Preservative Marinades:</strong>
+<span class="font-body-sm text-body-sm text-on-surface-variant"> Fresh crushed ginger, fermented scotch bonnets, native yaji, and garlic ground daily by 6:00 AM.</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-6 h-6 rounded-full bg-primary/10 text-primary flex items-center justify-center mt-0.5">
+<span class="material-symbols-outlined text-[16px]">done</span>
+</div>
+<div>
+<strong class="font-label-md text-label-md text-on-surface">Live Prep Tracking:</strong>
+<span class="font-body-sm text-body-sm text-on-surface-variant"> Watch your order transition from flame grill to bag to driver with turn-by-turn SMS updates.</span>
+</div>
+</div>
+</div>
+<div class="pt-space-sm">
+<a class="inline-flex items-center gap-space-xs bg-surface-container-highest px-space-lg py-3 rounded-xl font-label-md text-label-md text-on-surface hover:bg-primary hover:text-on-primary transition-all" href="#">
+<span>Read our kitchen hygiene and source manifesto</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Customer Reviews & Social Proof -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low">
+<div class="max-w-7xl mx-auto flex flex-col gap-space-xl">
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-bold">Community Love</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface mt-1">Loved by Over 18,500 Happy Foodies</h2>
+</div>
+<!-- Aggregate Badge -->
+<div class="flex items-center gap-space-md bg-surface-container-lowest px-space-lg py-2.5 rounded-2xl shadow-sm">
+<div class="flex items-center text-secondary-container">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">4.9 / 5 Overall Score</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Google &amp; App Reviews</span>
+</div>
+</div>
+</div>
+<!-- Testimonial Bento Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Review 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center text-secondary-container">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Yesterday</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface font-normal italic">
+              "The Smokey Jollof Fiesta Box is hands-down the best takeaway rice I’ve had in Lagos. It actually smells like legit party firewood jollof, not synthetic flavor. Delivered in 23 minutes straight to Lekki Phase 1."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-primary/20 text-primary font-bold flex items-center justify-center text-label-md">
+              TO
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">Tunde Oladipo</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Verified Buyer • Ordered 14 times</span>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center text-secondary-container">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">3 days ago</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface font-normal italic">
+              "Their Suya Glazed Flame Ribs are phenomenal. Meat falling right off the bone with that addictive spicy dry rub crunch. The food was so hot the foil box was steaming when I unzipped the delivery bag."
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-secondary/20 text-secondary font-bold flex items-center justify-center text-label-md">
+              AM
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">Amina Mohammed</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Verified Diner • Victoria Island</span>
+</div>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col justify-between gap-space-md">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center text-secondary-container">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">5 days ago</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface font-normal italic">
+              "We ordered the Combos for our 12-person product launch team dinner. The packaging was immaculate, zero grease leaks, and everyone raved about the spicy mango wings and loaded dodo poutine!"
+            </p>
+</div>
+<div class="flex items-center gap-space-sm pt-space-xs">
+<div class="w-10 h-10 rounded-full bg-tertiary/20 text-tertiary font-bold flex items-center justify-center text-label-md">
+              EK
+            </div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md font-bold text-on-surface">Emeka Kenneth</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Corporate Catering • Ikeja GRA</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Press Mentions Strip -->
+<div class="pt-space-md flex flex-wrap items-center justify-center gap-space-xl opacity-70 grayscale hover:grayscale-0 transition-all">
+<span class="font-headline-sm text-headline-sm tracking-tight text-on-surface font-extrabold">EAT.NG</span>
+<span class="font-headline-sm text-headline-sm tracking-tight text-on-surface font-extrabold">LAGOS CULINARY TIMES</span>
+<span class="font-headline-sm text-headline-sm tracking-tight text-on-surface font-extrabold">STREET FOOD DIGEST</span>
+<span class="font-headline-sm text-headline-sm tracking-tight text-on-surface font-extrabold">TECHCABAL TASTE</span>
+</div>
+</div>
+</section>
+<!-- Bottom Final Call to Order -->
+<section class="w-full px-margin py-space-xl">
+<div class="max-w-7xl mx-auto bg-surface-container-highest rounded-3xl p-space-lg md:p-space-xl flex flex-col md:flex-row items-center justify-between gap-space-lg relative overflow-hidden">
+<div class="flex flex-col gap-space-xs max-w-lg">
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-widest font-bold">Your Table is Waiting</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface">Ready to Chaw? Order In Seconds.</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">Browse our interactive menu, customize heat levels, and enjoy the quickest gourmet flame delivery in town.</p>
+</div>
+<div class="flex items-center gap-space-md">
+<a class="bg-primary text-on-primary px-space-xl py-3.5 rounded-xl font-label-lg text-label-lg shadow-md hover:bg-primary-container transition-all flex items-center gap-2" href="#featured-menu">
+<span class="material-symbols-outlined text-[20px]">shopping_bag</span>
+<span>Start Instant Order</span>
+</a>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-low mt-space-xl pt-space-xl pb-space-lg shadow-[0_-1px_8px_rgba(0,0,0,0.02)]"><div class="w-full px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter pb-space-xl"><div class="lg:col-span-2 flex flex-col gap-space-md pr-space-lg"><div class="flex items-center gap-space-sm"><img alt="Chawwit official brand logo: modern culinary emblem featuring a stylish smiling flame and steam bite motif with bold friendly lettering 'chawwit' in vibrant terracotta orange and golden amber.. Brand logo. - Primary color: #e04e26
+- Font: plusJakartaSans
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VU4QhZEf4uOUW0Im545D4HF7EATZfptIyne6adszJJeBzpNxwvQYTUO27YhXZ91y_NlD2OmmEF3SAdVmw_jl0AowPmSafC7KiS1jRf4-ZyhVHm2K9eA4o_gt5w-4kx-FSFihljlPya4JSJIQqJwAK5DEBKVgaNemIve3eVLo6dYEkEoq6INKKOgJRlHbTsclHzuGCS1lC2PqCM8tc2cL7eNmisYCldfukZvaDircyXZvSoeVwJBQcKjoI"/><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Chawwit</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm">Artisanal culinary craft and vibrant street food culture delivered fresh to your doorstep. Satisfying cravings with warm hospitality and flavor-first dishes.</p><div class="flex flex-col gap-space-xs mt-space-sm"><span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider">Stay in the flavor loop</span><div class="flex items-center gap-space-xs max-w-md"><input class="bg-surface-container-lowest text-on-surface placeholder:text-on-surface-variant px-space-md py-2.5 rounded-lg flex-1 font-body-sm text-body-sm shadow-[0_1px_4px_rgba(0,0,0,0.03)] focus:outline-none" placeholder="Enter your email address" type="email"/><button class="bg-primary text-on-primary px-space-md py-2.5 rounded-lg font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-all" type="button">Subscribe</button></div></div></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">Quick Links</span><ul class="flex flex-col gap-space-xs"><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="shop-catalogue" href="#">Full Catalog</a></li><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="deals" href="#">Daily Specials &amp; Deals</a></li><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="about" href="#">Our Kitchen &amp; Story</a></li><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="contact" href="#">Customer Support</a></li><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="order-tracking" href="#">Track Live Order</a></li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">Food Categories</span><ul class="flex flex-col gap-space-xs"><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="shop-catalogue" href="#">Flame Grilled Bowls</a></li><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="shop-catalogue" href="#">Artisan Burgers &amp; Wraps</a></li><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="shop-catalogue" href="#">Smokey Jollof Combos</a></li><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="shop-catalogue" href="#">Vegan &amp; Plant-Based</a></li><li class="list-none"><a class="font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="shop-catalogue" href="#">Craft Refreshers &amp; Desserts</a></li></ul></div><div class="flex flex-col gap-space-md"><div class="flex flex-col gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">Secure Payments</span><div class="flex flex-wrap items-center gap-space-xs"><span class="bg-surface-container-lowest px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface shadow-[0_1px_4px_rgba(0,0,0,0.04)] flex items-center gap-1.5"><span class="material-symbols-outlined text-tertiary text-[18px]">verified</span>Paystack</span><span class="bg-surface-container-lowest px-space-md py-1.5 rounded-lg font-label-md text-label-md text-on-surface shadow-[0_1px_4px_rgba(0,0,0,0.04)] flex items-center gap-1.5"><span class="material-symbols-outlined text-secondary text-[18px]">lock</span>Flutterwave</span></div></div><div class="flex flex-col gap-space-xs"><span class="font-label-md text-label-md text-on-surface">Follow Our Flavors</span><div class="flex items-center gap-space-sm"><a class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container transition-all" href="#"><span class="material-symbols-outlined text-[18px]">share</span></a><a class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container transition-all" href="#"><span class="material-symbols-outlined text-[18px]">photo_camera</span></a><a class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface-variant hover:bg-primary-container hover:text-on-primary-container transition-all" href="#"><span class="material-symbols-outlined text-[18px]">chat</span></a></div></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-on-surface-variant">© 2025 Chawwit Food Technologies Inc. All rights reserved.</p><div class="flex items-center gap-space-lg"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="privacy-policy" href="#">Privacy Policy</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="terms-of-service" href="#">Terms of Service</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="faq" href="#">Delivery FAQs</a></div></div></div></footer></body></html>

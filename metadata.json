@@ -1,0 +1,6 @@
+{
+  "name": "Chawwit — Fire-Crafted Culinary Delivery",
+  "description": "Artisanal firewood jollof, flame-seared suya, and vibrant street food platters crafted fresh to order and delivered steaming hot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

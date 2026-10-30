@@ -1,0 +1,241 @@
+---
+name: Modern Culinary Commerce
+colors:
+  surface: '#fff8f6'
+  surface-dim: '#e4d7d2'
+  surface-bright: '#fff8f6'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#fef1eb'
+  surface-container: '#f8ebe6'
+  surface-container-high: '#f2e6e0'
+  surface-container-highest: '#ede0db'
+  on-surface: '#201a17'
+  on-surface-variant: '#5a413a'
+  inverse-surface: '#362f2c'
+  inverse-on-surface: '#fbeee9'
+  outline: '#8e7069'
+  outline-variant: '#e2bfb6'
+  surface-tint: '#b12d03'
+  primary: '#ae2b01'
+  on-primary: '#ffffff'
+  primary-container: '#d0431c'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#ffb4a1'
+  secondary: '#855300'
+  on-secondary: '#ffffff'
+  secondary-container: '#fea619'
+  on-secondary-container: '#684000'
+  tertiary: '#006b2c'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00873a'
+  on-tertiary-container: '#f7fff2'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffdbd1'
+  primary-fixed-dim: '#ffb4a1'
+  on-primary-fixed: '#3c0800'
+  on-primary-fixed-variant: '#881f00'
+  secondary-fixed: '#ffddb8'
+  secondary-fixed-dim: '#ffb95f'
+  on-secondary-fixed: '#2a1700'
+  on-secondary-fixed-variant: '#653e00'
+  tertiary-fixed: '#7ffc97'
+  tertiary-fixed-dim: '#62df7d'
+  on-tertiary-fixed: '#002109'
+  on-tertiary-fixed-variant: '#005320'
+  background: '#fff8f6'
+  on-background: '#201a17'
+  surface-variant: '#ede0db'
+typography:
+  display-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 48px
+    fontWeight: '800'
+    lineHeight: 56px
+    letterSpacing: -0.03em
+  display-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+    letterSpacing: -0.01em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.005em
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '600'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  price-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '800'
+    lineHeight: 24px
+    letterSpacing: -0.02em
+  price-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '700'
+    lineHeight: 20px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.25rem
+  gutter-mobile: 0.75rem
+  margin: 2rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system embodies the sensory warmth of open kitchens, artisanal culinary craft, and rapid food e-commerce delivery. The brand personality is vivid, appetizing, approachable, and meticulously organized. It balances high-energy culinary delight with clear, frictionless e-commerce mechanics.
+
+The aesthetic blends **Modern Tactile Warmth** with **Contemporary Editorial Commerce**:
+- Clean layouts anchored by crisp product photography.
+- Warm, appetizing surface tones replacing sterile corporate grays.
+- Generous, rounded touch targets that invite exploration and easy ordering on mobile devices.
+- High-contrast visual hierarchy designed to guide the eye directly toward dish presentation, dietary badges, ingredient transparency, and the primary ordering funnel.
+
+## Colors
+
+The palette stimulates appetite and drives purchase momentum through warm, food-inspired chromatic roles:
+
+- **Primary (`#E04E26` - Terracotta Spice)**: Core interactive color for primary order CTAs, cart counters, active states, and dominant brand anchors. Communicates warmth, grilled char, and kitchen energy.
+- **Secondary (`#F59E0B` - Saffron Honey)**: Used for loyalty rewards, chef specials, golden hour delivery alerts, and promotional ribbons.
+- **Tertiary (`#16A34A` - Basil Green)**: Dedicated to dietary trust markers (Vegan, Organic, Farm-to-Table, Halal), checkout confirmations, and live order status rings.
+- **Alert / Spice (`#DC2626` - Chili Crimson)**: High-urgency notifications, heat/spice level indicators, sold-out alerts, and critical validation warnings.
+- **Neutral Dark (`#1F1916` - Espresso Bean)**: High-contrast typography, icons, and grounded structural elements. Avoid pure `#000000` to prevent harsh visual clipping against warm backgrounds.
+- **Neutral Surface & Background (`#FDFBF7` Cream, `#FFFFFF` Surface White, `#E8E3DD` Warm Stone)**: Clean, non-sterile canvas that makes food photography pop while maintaining a warm culinary atmosphere.
+
+## Typography
+
+The type scale uses **Plus Jakarta Sans** across display, body, and UI labels to provide a unified, friendly, and geometric personality with open letterforms.
+
+- Headings use heavier weights (700 and 800) with slight negative tracking to give hero menu items and featured restaurant headers a robust, authoritative editorial feel.
+- Pricing tokens (`price-lg`, `price-md`) leverage tabular-friendly, extra-bold figures to ensure instant scanability during basket reviews and menu navigation.
+- Label tokens (`label-sm`) use capitalized or upper-tracking styling for dietary indicators, preparation time tags, and nutritional micro-copy.
+
+## Layout & Spacing
+
+The layout is built around an 8pt baseline rhythm using a responsive 12-column fluid grid on desktop and tablet, collapsing to a single- or two-column staggered layout on mobile screens:
+
+- **Desktop (1024px+)**: 12 columns, `margin` of `2rem`, `gutter` of `1.25rem`. Food items are organized in 3- or 4-column card matrices with fixed sticky sidebars for cart drawers and filters.
+- **Tablet (768px – 1023px)**: 8 columns, `margin` of `1.5rem`, `gutter` of `1rem`. Menu grids sit at 2 columns wide.
+- **Mobile (< 768px)**: 4 columns or single-column stack, `margin-mobile` of `1rem`, `gutter-mobile` of `0.75rem`. Cards shift to horizontal list rows or full-bleed cards with sticky bottom-checkout bars.
+
+Spacing scale application:
+- `space-xs` (4px): Dietary icon-to-label spacing, badge interior padding.
+- `space-sm` (8px): Gap between title and short item descriptions, ingredient tag groupings.
+- `space-md` (16px): Internal padding inside food cards, button horizontal padding.
+- `space-lg` (24px): Card module separation, section header spacing.
+- `space-xl` (40px): Major storefront category block division and banner separation.
+
+## Elevation & Depth
+
+Visual hierarchy leverages warm ambient shadows and tonal surface layering to present dishes tangibly, avoiding sterile gray shadows:
+
+- **Surface Level 0 (Canvas)**: `#FDFBF7` Warm Cream. Base layer for catalog browsing and long-form menu feeds.
+- **Surface Level 1 (Card Rest)**: `#FFFFFF` Pure White with a subtle warm border (`1px solid #E8E3DD`) and a delicate warm ambient shadow: `box-shadow: 0 4px 16px -2px rgba(31, 25, 22, 0.05)`.
+- **Surface Level 2 (Card Hover / Dropdown)**: Elevated white card with increased warm diffusion: `box-shadow: 0 12px 28px -4px rgba(224, 78, 38, 0.08), 0 4px 12px -2px rgba(31, 25, 22, 0.04)`.
+- **Surface Level 3 (Sticky Header / Modals / Flying Cart)**: Floated surface with high elevation: `box-shadow: 0 20px 40px -8px rgba(31, 25, 22, 0.12)`. Headers use a frosted cream blur (`background: rgba(253, 251, 247, 0.85); backdrop-filter: blur(12px); border-bottom: 1px solid #E8E3DD`).
+
+## Shapes
+
+The design system uses a `roundedness` level of **2** (Base `0.5rem` / 8px). 
+
+- Interactive containers, food cards, checkout inputs, and image wrappers apply `rounded-lg` (`1rem` / 16px) or `rounded-xl` (`1.5rem` / 24px) to retain an inviting, organic softness.
+- Dietary tags, status indicators, and compact action pills explicitly utilize full-radius boundaries (`rounded-full` / 9999px) for friendly tactile affordance.
+- Overlaid product badges and cart step indicators maintain pill geometries to contrast sharply against squared card frame perimeters.
+
+## Components
+
+### Buttons
+- **Primary CTA ("Add to Bag", "Proceed to Checkout")**: Solid Terracotta Red-Orange (`#E04E26`), high-contrast white text, `rounded-xl` (16px), 12px 24px padding. Hover: `#D9381E` with subtle transform scaling (`scale: 1.02`). Active: `scale: 0.98`.
+- **Secondary Action ("Customize", "View Details")**: Crisp white background, `1.5px` border in `#E8E3DD`, Espresso typography (`#1F1916`). Hover: `#F8F6F0` surface tint.
+- **Quick-Add Icon Button**: 40x40px circle or squircle (`rounded-lg`), Terracotta accent background, high-contrast white plus icon positioned on the bottom right of dish imagery.
+
+### Dietary & Filter Chips
+- Rendered in pill shape (`rounded-full`) with a height of 28px to 32px.
+- **Vegan / Halal / Fresh**: Light basil tint background (`rgba(22, 163, 74, 0.10)`), `#16A34A` text, subtle leaf or check iconography.
+- **Spicy / Extra Heat**: Light chili tint background (`rgba(220, 38, 38, 0.10)`), `#DC2626` text, accompanied by chili pepper icons.
+- **Chef's Choice / Special**: Light saffron tint background (`rgba(245, 158, 11, 0.12)`), `#D97706` text.
+- **Interactive Filter Chip**: Unselected state has a `#FFFFFF` fill with a `#E8E3DD` border. Selected state transitions to solid `#1F1916` fill with white text.
+
+### Food Product Cards
+- Container: `#FFFFFF` fill, `rounded-xl` (20px), subtle border (`1px solid #E8E3DD`), overflow hidden.
+- Media Section: 4:3 or 1:1 aspect ratio food photography, soft zoom-on-hover effect. Overlaid top-left pill chips for tags (e.g., "Popular", "Spicy").
+- Content Section: Dish title in `headline-sm`, 2-line truncated ingredient description in `body-sm` (`#6B635B`), price token (`price-md`) pinned to bottom left, quick-add button pinned to bottom right.
+
+### Input Fields & Steppers
+- Input Fields: `#FFFFFF` background, `1.5px` border in `#E8E3DD`, `rounded-lg` (12px), 12px 16px padding. Focused state receives a `#E04E26` border and a `0 0 0 3px rgba(224, 78, 38, 0.15)` glow ring.
+- Quantity Stepper: Pill-shaped grouped control (`rounded-full`) with an off-white background (`#F8F6F0`). Minus, quantity count, and Plus buttons arranged horizontally with tactile click feedback.
+
+### Sticky Delivery Address Bar & Promo Banners
+- Top Address Header: Displays active delivery address, estimated transit time (e.g., "25-35 min"), and delivery/pickup toggle. Features bold Espresso micro-copy and clean arrow dropdowns.
+- Promotional Banners: Warm saffron-to-terracotta gradient (`linear-gradient(135deg, #F59E0B 0%, #E04E26 100%)`) with cream-colored display text, emphasizing promotional discount codes and chef collaborations.
